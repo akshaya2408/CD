@@ -8,7 +8,7 @@ def tokenize(code):
     i = 0
     while i < len(code):
         ch = code[i]
-        if ch.isspace():
+        if ch.isspace():#ignore spaces
             i += 1
             continue
         if ch == '"':
